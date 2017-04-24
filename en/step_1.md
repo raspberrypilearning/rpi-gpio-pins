@@ -4,28 +4,28 @@ GPIO is an acronym for *G*eneral *P*urpose *I*nput/*O*utput. On a Raspberry Pi t
 
 If you look at a Raspberry Pi, with the USB ports facing towards you, the layout of the GPIO pins is as follows.
 
-    |            |            |
-    |-----------:|:-----------|
-    |    3V3     | 5V         |
-    |  **GPIO2** | 5V         |
-    |  **GPIO3** | GND        |
-    |  **GPIO4** | **GPIO14** |
-    |        GND | **GPIO15** |
-    | **GPIO17** | **GPIO18** |
-    | **GPIO27** | GND        |
-    | **GPIO22** | **GPIO23** |
-    |        3V3 | **GPIO24** |
-    | **GPIO10** | GND        |
-    |  **GPIO9** | **GPIO25** |
-    | **GPIO11** | **GPIO8**  |
-    |        GND | **GPIO7**  |
-    |        DNC | DNC        |
-    |  **GPIO5** | GND        |
-    |  **GPIO6** | **GPIO12** |
-    | **GPIO13** | GND        |
-    | **GPIO19** | **GPIO16** |
-    | **GPIO26** | **GPIO20** |
-    |        GND | **GPIO21** |
+|            |            |
+|-----------:|:-----------|
+|    3V3     | 5V         |
+|  **GPIO2** | 5V         |
+|  **GPIO3** | GND        |
+|  **GPIO4** | **GPIO14** |
+|        GND | **GPIO15** |
+| **GPIO17** | **GPIO18** |
+| **GPIO27** | GND        |
+| **GPIO22** | **GPIO23** |
+|        3V3 | **GPIO24** |
+| **GPIO10** | GND        |
+|  **GPIO9** | **GPIO25** |
+| **GPIO11** | **GPIO8**  |
+|        GND | **GPIO7**  |
+|        DNC | DNC        |
+|  **GPIO5** | GND        |
+|  **GPIO6** | **GPIO12** |
+| **GPIO13** | GND        |
+| **GPIO19** | **GPIO16** |
+| **GPIO26** | **GPIO20** |
+|        GND | **GPIO21** |
 
 Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts and Ground connections.
 
