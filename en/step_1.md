@@ -1,5 +1,3 @@
-### What are GPIO pins?
-
 GPIO is an acronym for *G*eneral *P*urpose *I*nput/*O*utput. On a Raspberry Pi there are 26 GPIO pins. These pins allow you to send and receive on/off signals to and from electronic components such as LEDs, motors and buttons.
 
 If you look at a Raspberry Pi, with the USB ports facing towards you, the layout of the GPIO pins is as follows.
