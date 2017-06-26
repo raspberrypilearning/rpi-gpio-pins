@@ -1,10 +1,13 @@
-title: rpi-gpio-pins
+title: The Raspberry Pi's GPIO pins
 hero_image: images/banner.png
-subtitle: rpi-gpio-pins subtitle
-description: rpi-gpio-pins description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: GPIO pins on the Raspberry Pi
+original_url:
 theme: cc-prototype
-published: false
+duration: 1 # 1, 2 or 3
+listed: false
+ingredient: true
+interests: ""
+technologies: ""
 steps:
-  - title: Step one
-    duration: 60
+  - title: GPIO pins
+
