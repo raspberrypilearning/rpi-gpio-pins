@@ -1,9 +1,9 @@
 ---
-title: The Raspberry Pi's GPIO pins
-hero_image: images/banner.png
-description: GPIO pins on the Raspberry Pi
+title: Οι ακίδες Εισόδου Εξόδου Γενικής Χρήσης - GPIO του Raspberry Pi
+hero_image: εικόνες/banner.png
+description: Οι ακίδες Εισόδου Εξόδου Γενικής Χρήσης - GPIO στο Raspberry Pi
 original_url:
-theme: cc-prototype
+theme: cc-πρωτότυπο
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
@@ -12,5 +12,5 @@ interests: ""
 technologies: ""
 steps:
   - 
-    title: GPIO pins
+    title: Ακίδες Εισόδου Εξόδου Γενικής Χρήσης - GPIO
 
