@@ -1,7 +1,7 @@
 ---
-title: The Raspberry Pi's GPIO pins
-hero_image: images/banner.png
-description: GPIO pins on the Raspberry Pi
+title: Los pines GPIO de la Raspberry Pi
+hero_image: images / banner.png
+description: Pines GPIO en la Raspberry Pi
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
@@ -12,5 +12,5 @@ interests: ""
 technologies: ""
 steps:
   - 
-    title: GPIO pins
+    title: Pines GPIO
 
