@@ -39,4 +39,4 @@ Aquí hay una tabla con una breve explicación.
 | 5V                | 5 voltios       | Cualquier cosa conectada a estos pines siempre tendrá 5V de potencia.                  |
 | GND               | tierra          | Cero voltios, usado para completar un circuito                                         |
 | GP2               | GPIO pin 2      | Estos pines son para uso general y se pueden configurar como pines de entrada o salida |
-| ID_SC/ID_SD/DNC |                 | Special purpose pins                                                                   |
+| ID_SC/ID_SD/DNC |                 | Pines especiales                                                                       |
