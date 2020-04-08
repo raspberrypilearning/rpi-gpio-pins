@@ -1,6 +1,6 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO es un acrónimo de **G**eneral **P**urpose **I**nput /**O**utput. (Nota: "Entrada y Salida de Propósito General"). Una Raspberry Pi tiene 26 pines GPIO. Estos le permiten enviar y recibir señales de encendido / apagado desde y hacia componentes electrónicos como LEDs, motores y botones.
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+Si observas una Raspberry Pi con los puertos USB orientados hacia tí, el diseño de los pines GPIO es el siguiente.
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+Cada pin tiene un número, y hay pines adicionales que proporcionan conexiones de 3,3 voltios, 5 voltios y tierra.
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+Aquí hay otro diagrama que muestra el diseño de los pines. También muestra algunos de los pines especiales opcionales.
 
-![pinout](images/pinout.png)
+![asignación de pines](images/pinout.png)
 
-Here's a table with a brief explanation.
+Aquí hay una tabla con una breve explicación.
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| Abreviatura       | Nombre completo | Función                                                                                |
+| ----------------- | --------------- | -------------------------------------------------------------------------------------- |
+| 3V3               | 3,3 voltios     | Cualquier cosa conectada a estos pines siempre obtendrá 3.3V de potencia               |
+| 5V                | 5 voltios       | Cualquier cosa conectada a estos pines siempre tendrá 5V de potencia.                  |
+| GND               | tierra          | Cero voltios, usado para completar un circuito                                         |
+| GP2               | GPIO pin 2      | Estos pines son para uso general y se pueden configurar como pines de entrada o salida |
+| ID_SC/ID_SD/DNC |                 | Special purpose pins                                                                   |
