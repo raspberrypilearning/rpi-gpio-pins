@@ -38,5 +38,5 @@ Oto tabela z krótkim wyjaśnieniem.
 | 3V3                   | 3,3 wolta   | Wszystko podłączone do tych pinów będzie zasilane napięciem 3,3 V.                                    |
 | 5 V                   | 5 woltów    | Wszystko, co jest podłączone do tych pinów, otrzyma 5 V napięcia                                      |
 | GND                   | uziemienie  | Zero woltów, używane do zamknięcia obwodu                                                             |
-| GPIO2                 | Pin GPIO 2  | Te piny są przeznaczone do użytku ogólnego i mogą być konfigurowane jako piny wejściowe lub wyjściowe |
+| GP2                   | Pin GPIO 2  | Te piny są przeznaczone do użytku ogólnego i mogą być konfigurowane jako piny wejściowe lub wyjściowe |
 | ID_SC / ID_SD / DNC |             | Piny specjalnego przeznaczenia                                                                        |
