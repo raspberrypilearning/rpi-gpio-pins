@@ -39,4 +39,4 @@ Hier ist eine Tabelle mit einer kurzen Erklärung.
 | 5V                    | 5 Volt             | Alles, was an diese Stifte angeschlossen ist, wird immer mit 5 V versorgt                                         |
 | GND                   | Masse/GND          | Null Volt, zur Vervollständigung der Stromkreise                                                                  |
 | GP2                   | GPIO Sift 2        | Diese Stifte sind für den allgemeinen Gebrauch bestimmt und können als Eingänge oder Ausgänge konfiguriert werden |
-| ID_SC / ID_SD / DNC |                    | Spezialstifte                                                                                                     |
+| ID_SC/ID_SD/DNC |                    | Spezialstifte                                                                                                     |

@@ -39,4 +39,4 @@ Voici un tableau avec une brève explication.
 | 5V                    | 5 volts       | Tout ce qui est connecté à ces broches recevra toujours 5 V d'alimentation                                          |
 | GND                   | ground        | Zéro volt, utilisé pour compléter un circuit                                                                        |
 | GP2                   | Broche GPIO 2 | Ces broches sont destinées à un usage général et peuvent être configurées en tant que broches d'entrée ou de sortie |
-| ID_SC / ID_SD / DNC |               | Broches à usage spécial                                                                                             |
+| ID_SC/ID_SD/DNC |               | Broches à usage spécial                                                                                             |

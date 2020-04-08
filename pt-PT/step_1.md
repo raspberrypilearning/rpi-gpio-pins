@@ -39,4 +39,4 @@ Aqui está uma tabela com uma breve explicação.
 | 5V                    | 5 volts        | Qualquer coisa ligada a estes pinos terá sempre 5V de energia                          |
 | GND                   | neutro         | Zero volts, usado para fechar um circuito                                              |
 | GP2                   | Pino 2 do GPIO | Estes pinos são para uso geral e podem ser configurados como pinos de entrada ou saída |
-| ID_SC / ID_SD / DNC |                | Pinos com funções especiais                                                            |
+| ID_SC/ID_SD/DNC |                | Pinos com funções especiais                                                            |
