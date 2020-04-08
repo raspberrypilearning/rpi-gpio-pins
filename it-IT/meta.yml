@@ -1,0 +1,15 @@
+---
+title: Pin GPIO di Raspberry Pi
+hero_image: images/banner.png
+description: Pin GPIO sul Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Pin GPIO
+

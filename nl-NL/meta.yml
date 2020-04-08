@@ -1,0 +1,15 @@
+---
+title: De GPIO-pinnen van de Raspberry Pi
+hero_image: images/banner.png
+description: GPIO-pinnen op de Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: GPIO-pinnen
+
