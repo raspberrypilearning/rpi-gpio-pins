@@ -1,7 +1,7 @@
 ---
-title: The Raspberry Pi's GPIO pins
+title: مداخل GPIO Raspberry Pi
 hero_image: images/banner.png
-description: GPIO pins on the Raspberry Pi
+description: مداخل GPIO على Raspberry Pi
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
@@ -12,5 +12,5 @@ interests: ""
 technologies: ""
 steps:
   - 
-    title: GPIO pins
+    title: مداخل GPIO
 
