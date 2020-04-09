@@ -1,0 +1,15 @@
+---
+title: Los pines GPIO de la Raspberry Pi
+hero_image: images/banner.png
+description: Pines GPIO en la Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Pines GPIO
+
