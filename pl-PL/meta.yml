@@ -1,0 +1,15 @@
+---
+title: Piny GPIO Raspberry Pi
+hero_image: images/banner.png
+description: Piny GPIO na Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Piny GPIO
+
