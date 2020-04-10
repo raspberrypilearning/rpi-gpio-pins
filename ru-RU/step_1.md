@@ -1,6 +1,6 @@
 GPIO является аббревиатурой от **G**eneral **P**urpose **I**nput/**O**utput. Raspberry Pi имеет 26 контактов GPIO. Они позволяют получать и отправлять сигналы включения/выключения на электронные компоненты, такие как светодиоды, моторы и кнопки, и от них.
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+Если вы посмотрите на Raspberry Pi со стороны USB порта, обращенного на вас, расположение контактов GPIO выглядит следующим образом.
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+Каждый контакт имеет номер, и есть дополнительные контакты, которые обеспечивают 3,3 Вольта, 5 Вольт и заземление.
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+Вот еще одна схема, показывающая расположение контактов. Тут также показаны некоторые дополнительные специальные контакты.
 
-![pinout](images/pinout.png)
+![распиновка](images/pinout.png)
 
-Here's a table with a brief explanation.
+Вот таблица с кратким объяснением.
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| Сокращение        | Полное имя     | Назначение                                                                                                   |
+| ----------------- | -------------- | ------------------------------------------------------------------------------------------------------------ |
+| 3V3               | 3,3 вольта     | Все, что подключено к этим контактам, всегда получит напряжение 3,3 В                                        |
+| 5V                | 5 вольт        | Все, что подключено к этим контактам, всегда получит напряжение 5 В                                          |
+| GND               | земля          | Ноль вольт, используется для завершения цепи                                                                 |
+| GP2               | контакт GPIO 2 | Эти контакты предназначены для общего использования и могут быть настроены как входные или выходные контакты |
+| ID_SC/ID_SD/DNC |                | Контакты специального назначения                                                                             |
