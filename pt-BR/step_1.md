@@ -1,6 +1,6 @@
-GPIO é um acrónimo para **G**eneral (geral) **P**urpose (propósito)**I**nput (entrada)/ **O**utput (saída). (Pinos de entrada/saída para uso generalizado). Um Raspberry Pi possui 26 pinos GPIO. Isso permite enviar e receber sinais liga/desliga de e para componentes eletrónicos, como LEDs, motores e botões.
+GPIO é um acrônimo para **G**eneral **P**urpose **I**nput/**O**utput (Entrada e Saída de Uso Geral). Um Raspberry Pi possui 26 pinos GPIO. Isso permite enviar e receber sinais liga/desliga de e para componentes eletrônicos, como LEDs, motores e botões.
 
-Se tu olhares para um Raspberry Pi com as portas USB voltadas para ti, a disposição dos pinos GPIO é a seguinte.
+Se você olhar para um Raspberry Pi com as portas USB voltadas para você, a disposição dos pinos GPIO é a seguinte.
 
 |            |            |
 | ----------:|:---------- |
