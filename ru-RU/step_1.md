@@ -1,4 +1,4 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO является аббревиатурой от **G**eneral **P**urpose **I**nput/**O**utput. Raspberry Pi имеет 26 контактов GPIO. Они позволяют получать и отправлять сигналы включения/выключения на электронные компоненты, такие как светодиоды, моторы и кнопки, и от них.
 
 If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
 
