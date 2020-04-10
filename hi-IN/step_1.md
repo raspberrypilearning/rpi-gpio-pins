@@ -1,6 +1,6 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO **G**eneral **P**urpose **I**nput /**O**utput के लिए एक संक्षिप्त रूप है। एक Raspberry Pi में 26 GPIO पिन होते हैं। ये आपको LED, मोटर, और बटन जैसे इलेक्ट्रॉनिक उपकरणों से संकेतों को भेजने और प्राप्त करने की अनुमति देते हैं।
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+यदि आप Raspberry Pi को देखते हैं (उस तरह जैसे USB पोर्ट आपकी तरफ देखते है), तो GPIO पिन का लेआउट निम्नानुसार है।
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+प्रत्येक पिन का एक नंबर होता है, और अतिरिक्त पिन होते हैं जो 3.3 वोल्ट, 5 वोल्ट और ग्राउंड कनेक्शन प्रदान करते हैं।
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+यहाँ एक और चित्र है जो पिन के लेआउट को दिखा रहा है। यह कुछ वैकल्पिक विशेष पिनों को भी दिखाता है।
 
 ![pinout](images/pinout.png)
 
-Here's a table with a brief explanation.
+यहाँ एक संक्षिप्त विवरण के साथ एक तालिका (table) है।
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| संक्षिप्त नाम     | पूरा नाम   | काम                                                                                                          |
+| ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------ |
+| 3V3               | ३.३ वोल्ट  | इन पिनों से जुड़ी किसी भी चीज को हमेशा 3.3V बिजली मिलेगी                                                     |
+| 5V                | 5 वोल्ट    | इन पिनों से जुड़ी किसी भी चीज को हमेशा 5V बिजली मिलेगी                                                       |
+| GND               | ग्राउंड    | शून्य वोल्ट, एक सर्किट को पूरा करने के लिए उपयोग किया जाता है                                                |
+| GP2               | GPIO पिन 2 | ये पिन सामान्य प्रयोजन में उपयोग होती है और इन्हें इनपुट या आउटपुट पिन के रूप में कॉन्फ़िगर/बनाया जा सकता है |
+| ID_SC/ID_SD/DNC |            | विशेष उद्देश्य पिन                                                                                           |
