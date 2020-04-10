@@ -25,18 +25,18 @@ Se você olhar para um Raspberry Pi com as portas USB voltadas para você, a dis
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Cada pino tem um número e existem pinos adicionais que fornecem ligações de 3.3 Volts, 5 Volts e Neutro.
+Cada pino tem um número e existem pinos adicionais que fornecem conexões de 3,3 Volts, 5 Volts e Terra.
 
-Aqui está outro diagrama que mostra a disposição dos pinos. Também mostra alguns dos pinos especiais e opcionais.
+Aqui está outro diagrama mostrando a disposição dos pinos. Também mostra alguns dos pinos especiais opcionais.
 
-![disposição dos pinos](images/pinout.png)
+![pinagem](images/pinout.png)
 
 Aqui está uma tabela com uma breve explicação.
 
 | Abreviação            | Nome completo  | Função                                                                                 |
 | --------------------- | -------------- | -------------------------------------------------------------------------------------- |
-| 3V3                   | 3.3 volts      | Qualquer coisa ligada a estes pinos terá sempre 3.3V de energia                        |
-| 5V                    | 5 volts        | Qualquer coisa ligada a estes pinos terá sempre 5V de energia                          |
-| GND                   | neutro         | Zero volts, usado para fechar um circuito                                              |
-| GP2                   | Pino 2 do GPIO | Estes pinos são para uso geral e podem ser configurados como pinos de entrada ou saída |
-| ID_SC / ID_SD / DNC |                | Pinos com funções especiais                                                            |
+| 3V3                   | 3,3 Volts      | Qualquer coisa conectada a esses pinos sempre terá 3,3V de tensão                      |
+| 5V                    | 5 Volts        | Qualquer coisa conectada a esses pinos sempre terá 5V de tensão                        |
+| GND                   | Terra          | Zero volts, usado para completar um circuito                                           |
+| GP2                   | Pino 2 do GPIO | Esses pinos são para uso geral e podem ser configurados como pinos de entrada ou saída |
+| ID_SC / ID_SD / DNC |                | Pinos para fins especiais                                                              |
