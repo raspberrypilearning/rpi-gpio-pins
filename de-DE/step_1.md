@@ -1,6 +1,6 @@
-GPIO ist eine Abkürzung für **G**eneral **P**urpose **I**nput /**O**utput (universelle ein-/Ausgänge). Ein Raspberry Pi hat 26 GPIO-Stifte (pins). Diese erlauben es dir Ein-/Aus-Signale an und von elektronischen Komponenten wie LEDs, Motoren und Tasten zu senden und empfangen.
+GPIO ist eine Abkürzung für **G**eneral **P**urpose **I**nput /**O**utput (universelle Ein-/Ausgänge). Ein Raspberry Pi hat 26 GPIO-Stifte (pins). Diese erlauben es dir Ein-/Aus-Signale an und von elektronischen Komponenten wie LEDs, Motoren und Tasten zu senden und zu empfangen.
 
-Wenn du dir einen Raspberry Pi ansiehst dessen USB-Anschlüsse in deine Richtung zeigen, ist die Anordnung der GPIO-Anschlüsse wie folgt.
+Wenn du dir einen Raspberry Pi ansiehst, dessen USB-Anschlüsse in deine Richtung zeigen, ist die Anordnung der GPIO-Anschlüsse wie folgt.
 
 |                     |                     |
 | -------------------:|:------------------- |
