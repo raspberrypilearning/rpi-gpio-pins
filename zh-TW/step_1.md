@@ -1,42 +1,42 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO（英語：General-purpose input/output），通用型之輸入輸出的簡稱。 Raspberry Pi具有26個腳位。 您可以透過這些腳位收發開/關信號予其它電子組件（如LED，馬達和按鈕）。
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+USB端口朝向您時，GPIO腳位的佈局如下。
 
 |            |            |
 | ----------:|:---------- |
-|        3V3 | 5V         |
-|  **GPIO2** | 5V         |
-|  **GPIO3** | GND        |
+|        3V3 | 5伏         |
+|  **GPIO2** | 5伏         |
+|  **GPIO3** | 地線         |
 |  **GPIO4** | **GPIO14** |
-|        GND | **GPIO15** |
+|         地線 | **GPIO15** |
 | **GPIO17** | **GPIO18** |
-| **GPIO27** | GND        |
+| **GPIO27** | 地線         |
 | **GPIO22** | **GPIO23** |
 |        3V3 | **GPIO24** |
-| **GPIO10** | GND        |
+| **GPIO10** | 地線         |
 |  **GPIO9** | **GPIO25** |
 | **GPIO11** | **GPIO8**  |
-|        GND | **GPIO7**  |
+|         地線 | **GPIO7**  |
 |        DNC | DNC        |
-|  **GPIO5** | GND        |
+|  **GPIO5** | 地線         |
 |  **GPIO6** | **GPIO12** |
-| **GPIO13** | GND        |
+| **GPIO13** | 地線         |
 | **GPIO19** | **GPIO16** |
 | **GPIO26** | **GPIO20** |
-|        GND | **GPIO21** |
+|         地線 | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+每個腳位都有一個數字，並且還有其他腳位可提供3.3伏、5伏和接地線。
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+這是另一幅顯示了腳位的佈局圖。 它還顯示了一些可選的特殊腳位。
 
 ![pinout](images/pinout.png)
 
-Here's a table with a brief explanation.
+以下是簡介
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| 縮寫                    | 全名      | 功能                    |
+| --------------------- | ------- | --------------------- |
+| 3V3                   | 3.3伏    | 提供 3.3V 電源            |
+| 5V                    | 5伏      | 提供 5V 電源              |
+| GND                   | 接地線     | 地線 0V，用於形成迴路          |
+| GP2                   | GPIO腳位2 | 這些腳位是通用的，可以配置為輸入或輸出腳位 |
+| ID_SC / ID_SD / DNC |         | 專用腳位                  |
