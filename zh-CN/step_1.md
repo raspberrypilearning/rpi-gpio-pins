@@ -1,6 +1,6 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO是 **G**eneral **P**urpose **I**nput/**O**utput(通用用途输入输出)的首字母缩写。 树莓派具有 26 个 GPIO 引脚(1代为 26，2 3 4代为 40，译注)。 这些功能使您可以与电子组件（如LED，电机和按钮）之间进行开/关信号的收发。
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+Raspberry Pi 的 USB 口朝向您时，GPIO引脚的布局如下:
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+每个引脚都有一个数字，并且还有其他引脚可提供3.3伏，5伏和接地连接。
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+这是另一张图，显示了引脚的布局。 它还显示了一些可选的特殊引脚。
 
 ![pinout](images/pinout.png)
 
-Here's a table with a brief explanation.
+这是一张带有简要说明的表格。
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| 缩写                    | 全名      | 功能                    |
+| --------------------- | ------- | --------------------- |
+| 3V3                   | 3.3伏    | 提供3.3V电源              |
+| 5伏                    | 5伏      | 提供 5V 电源              |
+| GND                   | 地线      | 地线 0 伏，用于形成回路         |
+| GP2                   | GPIO引脚2 | 这些引脚是通用的，可以配置为输入或输出引脚 |
+| ID_SC / ID_SD / DNC |         | 专用针                   |
