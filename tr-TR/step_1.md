@@ -1,6 +1,6 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIO, **G**eneral (Genel) **P**urpose (Amaçlı) **I**nput (Giriş) /**O**utput (Çıkış) kısaltmasıdır. Bir Raspberry Pi'nin 26 GPIO pini vardır. Bunlar, LED'ler, motorlar ve düğmeler gibi elektronik bileşenlere / bileşenlerinden açma / kapama sinyalleri göndermenizi ve almanızı sağlar.
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+USB bağlantı noktaları size bakacak şekilde bir Raspberry Pi'ye bakarsanız, GPIO pinlerinin düzeni aşağıdaki gibidir.
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+Her pinin bir numarası vardır ve ayrıca 3.3 Volt, 5 Volt ve Toprak bağlantısı sağlayan ek pinler vardır.
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+Pinlerin yerleşimini gösteren başka bir şema. İsteğe bağlı bazı özel pinleri de gösterir.
 
 ![pinout](images/pinout.png)
 
-Here's a table with a brief explanation.
+İşte kısa bir açıklama içeren bir tablo.
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| Kısaltma              | Tam Adı    | İşlevi                                                                                        |
+| --------------------- | ---------- | --------------------------------------------------------------------------------------------- |
+| 3V3                   | 3.3 volt   | Bu pinlere bağlı olan her şey her zaman 3.3V güç alır                                         |
+| 5V                    | 5 volt     | Bu pinlere bağlı olan her şey her zaman 5V güç alır                                           |
+| GND                   | toprak     | Bir devreyi tamamlamak için kullanılan sıfır volt                                             |
+| GP2                   | GPIO pin 2 | Bu pinler genel amaçlı kullanım içindir ve giriş veya çıkış pinleri olarak yapılandırılabilir |
+| ID_SC / ID_SD / DNC |            | Özel amaçlı pinler                                                                            |
