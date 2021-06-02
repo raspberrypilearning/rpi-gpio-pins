@@ -1,6 +1,6 @@
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput. A Raspberry Pi has 26 GPIO pins. These allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, and buttons.
+GPIOは **G**eneral **P**urpose **I**nput /**O**utputの頭字語で、「汎用入出力」という意味です。 Raspberry Piには26本のGPIOピンがあります。 これらにより、LED、モーター、ボタンなどの電子部品との間でオン/オフ信号を送受信できます。
 
-If you look at a Raspberry Pi with the USB ports facing towards you, the layout of the GPIO pins is as follows.
+USBポートを手前にしてRaspberry Piを見ると、GPIOピンのレイアウトは次のようになります。
 
 |            |            |
 | ----------:|:---------- |
@@ -25,18 +25,18 @@ If you look at a Raspberry Pi with the USB ports facing towards you, the layout 
 | **GPIO26** | **GPIO20** |
 |        GND | **GPIO21** |
 
-Each pin has a number, and there are additional pins that provide 3.3 Volts, 5 Volts, and Ground connections.
+各ピンには1つの番号が割り当てられており、それ以外に、3.3ボルト、5ボルト、およびグラウンド接続を提供するピンがあります。
 
-Here's another diagram showing the layout of the pins. It shows some of the optional special pins as well.
+次に、ピンのレイアウトを示す別の図を示します。 特殊用途のピンもいくつかあります。
 
-![pinout](images/pinout.png)
+![ピン配列](images/pinout.png)
 
-Here's a table with a brief explanation.
+簡単な説明を表にしました。
 
-| Abbreviation      | Full name  | Function                                                                             |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
-| 3V3               | 3.3 volts  | Anything connected to these pins will always get 3.3V of power                       |
-| 5V                | 5 volts    | Anything connected to these pins will always get 5V of power                         |
-| GND               | ground     | Zero volts, used to complete a circuit                                               |
-| GP2               | GPIO pin 2 | These pins are for general-purpose use and can be configured as input or output pins |
-| ID_SC/ID_SD/DNC |            | Special purpose pins                                                                 |
+| 表記                    | ピンの名前   | 機能                                    |
+| --------------------- | ------- | ------------------------------------- |
+| 3V3                   | 3.3ボルト  | このピンから3.3Vの電力が供給されます。                 |
+| 5V                    | 5ボルト    | このピンから5Vの電力が供給されます                    |
+| GND                   | グランウンド  | 回路がつながるように使われるゼロボルトライン                |
+| GP2                   | GPIOピン2 | これらのピンは汎用であり、入力ピンまたは出力ピンとして使うことができます。 |
+| ID_SC / ID_SD / DNC |         | 特殊用途のピン                               |
